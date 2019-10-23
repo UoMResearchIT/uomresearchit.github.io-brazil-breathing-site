@@ -1,0 +1,244 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0 auto;    
+}
+
+.paginas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color:#f0f0f0;
+    height:120px;
+    border-bottom: 1.6px solid #fee000;
+}
+
+.paginas li{
+    float:left;
+}
+
+.paginas li a{
+    display: block;
+    color:#2aa254;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-weight: bold;
+}
+.dropbtn {
+    background-color:transparent;
+    color:#2aa254;
+    font-family:'Roboto';
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display:none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #9b9b9b}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #9b9b9b;
+  }
+  .paginas ul li a:hover{
+    color: #fee000;
+    background: #949493;
+}
+
+.title{
+    margin-left:100px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#595a55;
+    font-size: 18px;
+}
+
+.rectangle {
+
+    height: 8px;
+    width: 50px;
+    background-color: #555;
+    display: inline-block;
+    margin-top:-20px;
+    margin-left:190px;
+}
+
+.text{
+    padding:10px;
+    margin-left:150px;
+    margin-right:100px;
+    text-align: justify;
+    color:#595a55;
+    font-family: 'roboto';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+
+}
+
+.team{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#595a55;
+    font-size: 18px;
+}
+.rectangle1 {
+    height: 8px;
+    width: 50px;
+    background-color: #555;
+    display: inline-block;
+    margin-top:-20px;
+
+}
+
+.circular-portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border-color: black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.circular-portrait-mini{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:20px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border-color: black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+}
+
+
+
+.small-uni-txt{
+    font-weight: normal;
+    font-size:18px;
+    font-family: 'Roboto';
+}
+
+.circularportrait-img {
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+#collaborators-table-small{
+    border-spacing: 10px;
+    border-collapse: separate;
+    width:70%;
+    display:none;
+}
+
+.col-cell-bio{
+    padding:none;
+    background-color:#2222;
+    color:black;
+    font-size:20px;
+    font-family:'Roboto';
+    font-weight: bold;
+    text-align: center;
+   
+    width:25%;
+    height:5px;
+
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.no-select {
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+
+.centre-text-container {
+    text-align: center;
+    text-align: justify;
+}
+
+#bio-table{
+    width:90%;
+}
+
+#collaborators-table{
+    border-spacing: none;
+    border-collapse:collapse;
+    width:70%;
+    margin-left:15%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    
+}
+
+.bio-pic{
+    width: 10%;
+}
+
+.circularportrait-img {
+    width: 100%;
+    height: auto;
+}
+
+.primary-bio-text{
+    width: 20%;
+    padding:10px;
+}
+
+.names{
+    margin-top:-120px;
+    margin-bottom:50px;
+    margin-left:100px;
+}
+
+.greenblock{
+    background-color:#2aa254;
+    height:150px;
+    text-align: center;
+    
+}

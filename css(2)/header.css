@@ -1,0 +1,75 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0 auto;    
+}
+
+.paginas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color:#f0f0f0;
+    height:120px;
+    border-bottom: 1.6px solid #fee000;
+}
+
+.paginas li{
+    float:left;
+}
+
+.paginas li a{
+    display: block;
+    color:#2aa254;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-weight: bold;
+}
+.dropbtn {
+    background-color:transparent;
+    color:#2aa254;
+    font-family:'Roboto';
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display:none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #9b9b9b}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #9b9b9b;
+  }
+
+  .paginas ul li a:hover{
+    color: #fee000;
+    background: #949493;
+}

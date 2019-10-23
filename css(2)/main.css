@@ -1,0 +1,252 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0 auto;    
+}
+
+.paginas ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color:#f0f0f0;
+    height:120px;
+    border-bottom: 1.6px solid #fee000;
+}
+
+.paginas li{
+    float:left;
+}
+
+.paginas li a{
+    display: block;
+    color:#2aa254;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-weight: bold;
+}
+.dropbtn {
+    background-color:transparent;
+    color:#2aa254;
+    font-family:'Roboto';
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display:none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #9b9b9b}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #9b9b9b;
+  }
+
+  .paginas ul li a:hover{
+    color: #fee000;
+    background: #949493;
+}
+.text{
+    text-align: justify;
+    margin-left:100px;
+    margin-right:100px;
+    float:left;
+    font-family: 'Roboto';
+    font-size: 27px;
+    color:#595a55;
+}
+.img_bb{
+    text-align:center;
+    margin-left:130px;
+    margin-right:100px;
+}
+
+.carousel{
+    width:86.7%!important;
+    margin-left:100px;
+    z-index:-1;
+
+}
+.slick-initialized{
+    overflow:hidden;
+}
+.slick-prev{
+    display: none;
+}
+
+button.slick-prev{
+    font-size:0px;
+    border:none;
+    width:0px;
+    height:0px;
+    background-color:transparent;
+}
+
+button.slick-next{
+    font-size:0px;
+    border:none;
+    width:0px;
+    height:0px;
+    background-color:transparent;
+}
+
+ul.slick-dots li button{
+    display:none;
+}
+.grayblock{
+    background-color:#f0f0f0;
+    height:60%;
+    margin-top:40px;
+    margin-left:6.6%;
+    margin-right:6.6%;
+
+}
+.title{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#595a55;
+    font-size:30px;
+    
+}
+
+.icons table, th {
+    height:180px;
+    vertical-align:top;
+    table-layout: fixed;
+    width:100%;
+    border:none;
+    border-collapse: collapse;
+}
+.icons table, td{
+    width:100%;
+    border:none;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#595a55;
+    font-size:20px;
+}
+
+
+.capitals table, td tr{
+    font-weight: bold;
+    font-size:60px;
+    
+}
+
+.liltext table, td{
+    margin-top:20px;
+    font-size:30px;
+}
+.row{
+    background-color:#f0f0f0;
+    margin-left:6.6%;
+    margin-right:6.6%;
+    margin-top:40px;
+}
+
+.column1{
+    margin-top:40px;
+    box-sizing: border-box;
+    float: left;
+    width:40%;
+    height: 400px;
+    margin-left:2%;
+
+
+
+}
+.column2{
+    margin-top:40px;
+    box-sizing: border-box;
+    float: left;
+    width:45%;
+    height: 400px;
+margin-left:10%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.citizen{
+    text-align: middle;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#595a55;
+    font-size:100%;
+    margin-right: 20px;
+}
+.text3{
+    
+    text-align:justify;
+    font-size:30px;
+    font-family:'Roboto';
+    color:#595a55;
+   
+    margin-right:40px;
+    background-color: #dddddd;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.videobb{
+    margin-top:30px;
+    margin-left:50px;
+}
+.platforms{
+    font-family:'Roboto';
+    color:#595a55;
+    text-align: center;
+    background-color: #f0f0f0;
+    height:150px;
+    margin-top:none;
+    margin-left:6.6%;
+    margin-right:6.6%;
+}
+.plat_icons ul li{
+    text-align: center;
+    list-style-type: none;
+    display:inline-block;
+    
+}
+
+.greenblock{
+    background-color:#2aa254;
+    height:150px;
+    text-align: center;
+    
+    
+}
+
