@@ -96,6 +96,7 @@ body{
 }
 .slick-initialized{
     overflow:hidden;
+    height:50%;
 }
 .slick-prev{
     display: none;
