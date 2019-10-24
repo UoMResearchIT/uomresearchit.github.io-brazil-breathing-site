@@ -123,13 +123,14 @@ ul.slick-dots li button{
 }
 .grayblock{
     background-color:#f0f0f0;
-    height:60%;
+    height:50%;
     margin-top:40px;
     margin-left:6.6%;
     margin-right:6.6%;
 
 }
 .title{
+      background-color:#f0f0f0;
     text-align: center;
     font-family: 'Roboto';
     font-weight: bold;
@@ -139,6 +140,7 @@ ul.slick-dots li button{
 }
 
 .icons table, th {
+      background-color:#f0f0f0;
     height:180px;
     vertical-align:top;
     table-layout: fixed;
@@ -147,6 +149,7 @@ ul.slick-dots li button{
     border-collapse: collapse;
 }
 .icons table, td{
+      background-color:#f0f0f0;
     width:100%;
     border:none;
     text-align: center;
@@ -158,12 +161,14 @@ ul.slick-dots li button{
 
 
 .capitals table, td tr{
+      background-color:#f0f0f0;
     font-weight: bold;
     font-size:60px;
     
 }
 
 .liltext table, td{
+      background-color:#f0f0f0;
     margin-top:20px;
     font-size:30px;
 }
