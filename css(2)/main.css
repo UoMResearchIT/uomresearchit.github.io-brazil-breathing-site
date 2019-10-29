@@ -569,11 +569,11 @@ margin-left:10%
     
     }
     .column2{
-        margin-top:-200px;
+        margin-top:-130px;
         box-sizing: border-box;
         float: left;
         width:100%;
-        height: 10px;
+        height: 170px;
     margin-left:0%
     }
     
@@ -611,7 +611,7 @@ margin-left:10%
     }
     .videosize{
         width:240%;
-     height:40%
+     height:60%
     }
     .platforms{
         font-family:'Roboto';
@@ -619,7 +619,7 @@ margin-left:10%
         text-align: center;
     
         height:20px;
-        margin-top:10px;
+        margin-top:20px;
         margin-left:0%;
         margin-right:0%;
     }
@@ -633,14 +633,14 @@ margin-left:10%
         width:56.524px; 
         height:21.875px;
         margin-right:40px;
-        margin-top:-50px;
+        margin-top:-35px;
     
     }
     .androidicon{
         width:56.524px;
        height:21.875px;
        margin-right:40px;
-       margin-top:-50px;
+       margin-top:-35px;
     }
     .imgepsrc{
         width:15%;
