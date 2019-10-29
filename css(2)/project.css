@@ -249,21 +249,54 @@ margin-top:0.5%;
 .twitter{
   display:inline-block;
 
+    
+}
+
+.imgepsrc{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgalant{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgatmos{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgutf{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgmanches{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
 }
 
 .greenblock{
-  background-color:#2aa254;
-  height:150px;
-  text-align: center;
-  
+    margin-top:5%;
+    background-color:#2aa254;
+    height:150px;
+    text-align: center;
+    
+    
 }
 
 @media screen and (max-width:768px){
+  
   body{
 
     height:100%;
     width: 100%; 
     margin: auto;    
+    overflow-x: hidden;
 }
 .paginas ul{
 
@@ -285,6 +318,7 @@ margin-top:0.5%;
  
 }
 
+
 .paginas li a{
     display: block;
     color:#2aa254;
@@ -294,6 +328,8 @@ margin-top:0.5%;
     font-size: 80%;
     font-family:'Roboto';
     font-weight: bold;
+    background-color:#f0f0f0;
+    border-spacing:0px;
   
 }
 .inicio{
@@ -302,6 +338,8 @@ margin-top:0.5%;
 .imgg1{
   margin-left:-45%;
   margin-top:-2%;
+  background-color:#f0f0f0;
+  
 }
 
 
@@ -314,17 +352,19 @@ margin-top:0.5%;
     font-size: 80%;
     border: none;
     cursor: pointer;
-  
+    background-color:#f0f0f0;
+    width:100%;
    
 }  
   .dropdown {
     position: relative;
     display: inline-block;
+    width:100%;
    
   }
   
   .dropdown-content {
-    display:none; 
+    display: none; 
     position: absolute;
     background-color: #f9f9f9;
     min-width: 10px;
@@ -363,6 +403,8 @@ margin-top:0.5%;
   }
 
   .oprojeto{
+    margin-top:230px;
+    margin-bottom:20px;
     margin-left:8%;
     text-align: left;
     font-family: 'Roboto';
@@ -376,7 +418,7 @@ margin-top:0.5%;
     width: 5%;
     margin-left:15%;
     background-color: #555;
-    display: inline-block;
+    display: none;
     margin-top:-10px;
 }
 
@@ -392,7 +434,7 @@ margin-top:0.5%;
   .title1{
   font-family:'Roboto';
   text-align:center;
-  font-size: 5px; 
+  font-size: 10px; 
  
 }
 
@@ -405,14 +447,16 @@ margin-top:0.5%;
 
 .img1{
   text-align:center;
-display:none;
+height:40%;
+width:40%;
+margin-top:-30px;
 }
 
 .txt1{
   font-family:'Roboto';
  text-align: justify;
  margin:2px;
- font-size: 5px;
+ font-size: 8px;
  
 }
 
@@ -420,7 +464,7 @@ display:none;
   font-family:'Roboto';
   text-align:center;
   color:white;
-  font-size:5px;
+  font-size:10px;
  
 }
 
@@ -433,8 +477,11 @@ display:none;
 }
 
 .img2{
+  
+  margin-top:-30px;
   text-align:center;
-  display:none;
+  height:50%;
+  width:50%;
 }
 
 .txt2{
@@ -442,15 +489,15 @@ display:none;
  text-align: justify;
  margin:2px;
  color:white;
- margin-top:10%;
- font-size:5px;
+ margin-top:10px;
+ font-size:8px;
 }
 
 .title3{
   font-family:'Roboto';
   text-align:center;
   color:white;
-  font-size:5px;
+  font-size:10px;
  
 }
 
@@ -464,7 +511,9 @@ display:none;
 
 .img3{
   text-align:center;
-  display:none
+  height:40%;
+  width:40%;
+  margin-top:-40px;
 }
 
 .txt3{
@@ -472,15 +521,15 @@ display:none;
  text-align: justify;
  margin:2px;
  color:white;
- font-size:5px;
+ font-size:8px;
  
 }
 
 .title4{
   font-family:'Roboto';
   text-align:center;
-    margin-top:-10%;
-    font-size:5px;
+    margin-top:-40px;
+    font-size:10px;
  
 }
 
@@ -494,21 +543,24 @@ display:none;
 
 .img4{
   text-align:center;
-  display:none
+  width:40%;
+  height:40%;
+  margin-top:-40px;
 }
 
 .txt4{
   font-family:'Roboto';
  text-align: justify;
  margin:2px;
- font-size:5px;
+ font-size:8px;
  
 }
 
 .title5{
   font-family:'Roboto';
   text-align:center;
-  font-size:5px;
+  font-size:10px;
+  margin-top:-70px;
 
  
 }
@@ -523,42 +575,55 @@ display:none;
 
 .img5{
   text-align:center;
-  display:none;
+  height:40%;
+  width:40%;
 }
 
 .txt5{
   font-family:'Roboto';
  text-align: justify;
  margin:2px;
- font-size:5px;
+ font-size:8px;
  
 }
 .twitter{
   display: none;
 }
 
-.greenblock{
-  background-color:#2aa254;
-  height:150px;
-  text-align: center;
-  
+.imgepsrc{
+  width:15%;
+  margin-top:10px;
+  padding:0px
+}
+.imgalant{
+  width:15%;
+  margin-top:10px;
+  padding:0px
+}
+.imgatmos{
+  width:15%;
+  margin-top:10px;
+  padding:0px
+}
+
+.imgutf{
+  width:15%;
+  margin-top:10px;
+  padding:0px
+}
+
+.imgmanches{
+  width:15%;
+  margin-top:10px;
+  padding:0px
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.greenblock{
+  margin-top:0px;
+  background-color:#2aa254;
+  height:40px;
+  text-align: center;
+  
+  
 }
