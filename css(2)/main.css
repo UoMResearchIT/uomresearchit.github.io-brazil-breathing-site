@@ -2,6 +2,7 @@ body{
     height:100%;
     width:100%;
     margin:0 auto;    
+    overflow-x:hidden;
 }
 
 .paginas ul{
@@ -73,6 +74,16 @@ body{
     color: #fee000;
     background: #949493;
 }
+.imgg1 li{
+    margin-left:15%;
+  margin-top:0.5%;
+    
+  }
+  
+  .inicio li{
+    margin-top:2.2%;
+    margin-left:10%
+  }
 .text{
     text-align: justify;
     margin-left:100px;
@@ -130,7 +141,7 @@ ul.slick-dots li button{
 
 }
 .title{
-      background-color:#f0f0f0;
+    background-color:#f0f0f0;
     text-align: center;
     font-family: 'Roboto';
     font-weight: bold;
@@ -138,9 +149,19 @@ ul.slick-dots li button{
     font-size:30px;
     
 }
+.imglivro{
+    height:150px;
+}
+.imgcalendario{
+    height:150px;
+
+}
+.imgpessoas{
+    height:150px;
+}
 
 .icons table, th {
-      background-color:#f0f0f0;
+    background-color:#f0f0f0;
     height:180px;
     vertical-align:top;
     table-layout: fixed;
@@ -149,7 +170,7 @@ ul.slick-dots li button{
     border-collapse: collapse;
 }
 .icons table, td{
-      background-color:#f0f0f0;
+    background-color:#f0f0f0;
     width:100%;
     border:none;
     text-align: center;
@@ -161,16 +182,16 @@ ul.slick-dots li button{
 
 
 .capitals table, td tr{
-      background-color:#f0f0f0;
+    background-color:#f0f0f0;
     font-weight: bold;
     font-size:60px;
     
 }
 
 .liltext table, td{
-      background-color:#f0f0f0;
+    background-color:#f0f0f0;
     margin-top:20px;
-    font-size:30px;
+    font-size:20px;
 }
 .row{
     background-color:#f0f0f0;
@@ -226,7 +247,10 @@ margin-left:10%
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-
+.videosize{
+    width:120%;
+ height:80%
+}
 .videobb{
     margin-top:30px;
     margin-left:50px;
@@ -241,6 +265,18 @@ margin-left:10%
     margin-left:6.6%;
     margin-right:6.6%;
 }
+
+.appleicon{
+    width:226.1px; 
+    height:87.5px;
+    margin-right:35px
+
+}
+.androidicon{
+    width:226.1px;
+   height:87.5px;
+}
+
 .plat_icons ul li{
     text-align: center;
     list-style-type: none;
@@ -248,7 +284,36 @@ margin-left:10%
     
 }
 
+.imgepsrc{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgalant{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgatmos{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgutf{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgmanches{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
 .greenblock{
+    margin-top:5%;
     background-color:#2aa254;
     height:150px;
     text-align: center;
@@ -256,3 +321,364 @@ margin-left:10%
     
 }
 
+@media screen and (max-width:768px){
+
+    body{
+
+        height:100%;
+        width: 100%; 
+        margin: auto;    
+    }
+    .paginas ul{
+    
+      width:100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        background-color:#f0f0f0;
+        height:15%;
+        border-bottom: 1.6px solid #fee000;
+        
+    }
+    .paginas li{
+        float:left;
+        width:100%;
+        text-align:center;
+    
+     
+    }
+    
+    .paginas li a{
+        display: block;
+        color:#2aa254;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 80%;
+        font-family:'Roboto';
+        font-weight: bold;
+        background-color:#f0f0f0;
+        border-spacing:0px;
+      
+    }
+    .inicio{
+      margin-left:-23%;
+    }  
+    .imgg1{
+      margin-left:-45%;
+      margin-top:-2%;
+      background-color:#f0f0f0;
+      
+    }
+    
+    
+    .dropbtn {
+        background-color:transparent;
+        color:#2aa254;
+        font-family:'Roboto';
+        padding: 14px 16px;
+        font-weight: bold;
+        font-size: 80%;
+        border: none;
+        cursor: pointer;
+        background-color:#f0f0f0;
+        width:100%;
+       
+    }  
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        width:100%;
+       
+      }
+      
+      .dropdown-content {
+        display:none; 
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+       
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+       
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #9b9b9b;
+        
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+       
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: transparent;
+       
+      }
+    
+      .paginas ul li a:hover{
+        color: #fee000;
+        background:transparent;
+     
+      }
+ 
+  
+    .text{
+        text-align: justify;
+        margin-left:10px;
+        margin-right:10px;
+        float:left;
+        font-family: 'Roboto';
+        font-size: 10px;
+        color:#595a55;
+    }
+    .img_bb{
+        text-align:center;
+        margin-left:10%;
+        margin-right:10%;
+        display:none;
+    }
+    
+    .carousel{
+        width:100%!important;
+        margin-left:0px;
+        z-index:-1;
+    
+    }
+    .slick-initialized{
+        overflow:hidden;
+        height:50%;
+    }
+    .slick-prev{
+        display: none;
+    }
+    
+    button.slick-prev{
+        font-size:0px;
+        border:none;
+        width:0px;
+        height:0px;
+        background-color:transparent;
+    }
+    
+    button.slick-next{
+        font-size:0px;
+        border:none;
+        width:0px;
+        height:0px;
+        background-color:transparent;
+    }
+    
+    ul.slick-dots li button{
+        display:none;
+    }
+    .grayblock{
+        background-color:#f0f0f0;
+        height:30%;
+        margin-top:-200px;
+        margin-left:0%;
+        margin-right:0%;
+    
+    }
+    .title{
+        background-color:#f0f0f0;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color:#595a55;
+        font-size:10px;
+        margin-top:50px;
+        
+    }
+    .imglivro{
+        height:50px;
+    }
+    .imgcalendario{
+        height:50px;
+
+    }
+    .imgpessoas{
+        height:50px;
+    }
+    
+    .icons table, th {
+        background-color:#f0f0f0;
+        height:10px;
+        vertical-align:top;
+        table-layout: fixed;
+        width:1%;
+        border:none;
+        border-collapse: collapse;
+    }
+    .icons table, td{
+        background-color:#f0f0f0;
+        width:100%;
+        border:none;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color:#595a55;
+        font-size:10px;
+    }
+    
+    
+    .capitals table, td tr{
+        background-color:#f0f0f0;
+        font-weight: bold;
+        
+        
+    }
+    .capitals td{
+        font-size:10px;
+    }
+    
+    .liltext table, td{
+        background-color:#f0f0f0;
+        margin-top:20px;
+        font-size:10px;
+    }
+
+    .row{
+        background-color:#f0f0f0;
+        margin-left:0%;
+        margin-right:0%;
+        margin-top:60px;
+    }
+    
+    .column1{
+        margin-top:0px;
+        box-sizing: border-box;
+        float: left;
+        width:40%;
+        height: 400px;
+        margin-left:2%;
+    
+    
+    
+    }
+    .column2{
+        margin-top:-200px;
+        box-sizing: border-box;
+        float: left;
+        width:100%;
+        height: 60px;
+    margin-left:0%
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    
+    }
+    .citizen{
+        text-align:center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color:#595a55;
+        font-size:60%;
+        margin-left:0%;
+        margin-top:-30px;
+    }
+    .text3{
+        
+        text-align:justify;
+        font-size:15px;
+        font-family:'Roboto';
+        color:#595a55;
+       margin-left:10px;
+        margin-right:10px;
+        background-color: #dddddd;
+        box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    .videobb{
+        margin-top:10px;
+        margin-left:0px;
+    }
+    .videosize{
+        width:240%;
+     height:40%
+    }
+    .platforms{
+        font-family:'Roboto';
+        color:#595a55;
+        text-align: center;
+    
+        height:10px;
+        margin-top:10px;
+        margin-left:0%;
+        margin-right:0%;
+    }
+    .plat_icons ul li{
+        text-align: center;
+        list-style-type: none;
+        display:inline-block;
+        
+    }
+    .appleicon{
+        width:56.524px; 
+        height:21.875px;
+        margin-right:40px;
+        margin-top:-40px;
+    
+    }
+    .androidicon{
+        width:56.524px;
+       height:21.875px;
+       margin-right:40px;
+       margin-top:-40px;
+    }
+    .imgepsrc{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    .imgalant{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    .imgatmos{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    .imgutf{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    .imgmanches{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    
+    .greenblock{
+        margin-top:50px;
+        background-color:#2aa254;
+        height:40px;
+        text-align: center;
+        
+        
+    }
+
+
+
+
+}
