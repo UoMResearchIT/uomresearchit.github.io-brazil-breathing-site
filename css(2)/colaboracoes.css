@@ -2,6 +2,7 @@ body{
     height:100%;
     width:100%;
     margin:0 auto;    
+    overflow-x:hidden;
 }
 
 .paginas ul{
@@ -28,11 +29,6 @@ body{
     font-family:'Roboto';
     font-weight: bold;
 }
-.paginas ul li a:hover{
-    color: #fee000;
-    background: #9b9b9b;
-}
-
 .dropbtn {
     background-color:transparent;
     color:#2aa254;
@@ -74,6 +70,20 @@ body{
     background-color: #9b9b9b;
   }
 
+  .paginas ul li a:hover{
+    color: #fee000;
+    background: #949493;
+}
+.imgg1 li{
+    margin-left:15%;
+  margin-top:0.5%;
+    
+  }
+  
+  .inicio li{
+    margin-top:2.2%;
+    margin-left:10%
+  }
 
 .colaborations{
     margin-left:100px;
@@ -108,6 +118,33 @@ body{
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+.imgepsrc{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgalant{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgatmos{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgutf{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgmanches{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
 
 
 .greenblock{
@@ -115,4 +152,190 @@ body{
     height:150px;
     text-align: center;
     
+}
+
+
+@media screen and (max-width:768px){
+    body{
+
+        height:100%;
+        width: 100%; 
+        margin: auto;  
+        overflow-x:hidden;  
+    }
+    .paginas ul{
+    
+      width:100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        background-color:#f0f0f0;
+        height:15%;
+        border-bottom: 1.6px solid #fee000;
+        
+    }
+    .paginas li{
+        float:left;
+        width:100%;
+        text-align:center;
+    
+     
+    }
+    
+    .paginas li a{
+        display: block;
+        color:#2aa254;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 80%;
+        font-family:'Roboto';
+        font-weight: bold;
+        background-color:#f0f0f0;
+        border-spacing:0px;
+      
+    }
+    .inicio{
+      margin-left:-23%;
+    }  
+    .imgg1{
+      margin-left:-45%;
+      margin-top:-2%;
+      background-color:#f0f0f0;
+      
+    }
+    
+    
+    .dropbtn {
+        background-color:transparent;
+        color:#2aa254;
+        font-family:'Roboto';
+        padding: 14px 16px;
+        font-weight: bold;
+        font-size: 80%;
+        border: none;
+        cursor: pointer;
+        background-color:#f0f0f0;
+        width:100%;
+       
+    }  
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        width:100%;
+       
+      }
+      
+      .dropdown-content {
+        display:none; 
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+       
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+       
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #9b9b9b;
+        
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+       
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: transparent;
+       
+      }
+    
+      .paginas ul li a:hover{
+        color: #fee000;
+        background:transparent;
+     
+      }
+      .colaborations{
+          margin-top:220px;
+        margin-left:10px;
+        text-align: left;
+        font-family: 'Roboto';
+        font-weight:none;
+        color:#595a55;
+        font-size: 10px;
+    }
+    
+    .rectangle{
+        height: 4px;
+        width: 25px;
+        margin-left:70px;
+        background-color: #555;
+        display: inline-block;
+        margin-top:-10px;
+    }
+    
+    .text{
+        padding:30px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:20px;
+        text-align: justify;
+        color:#595a55;
+        font-family: 'roboto';
+        font-size: 15px;
+        margin-bottom:100px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    .imgepsrc{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    .imgalant{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    .imgatmos{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    .imgutf{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    .imgmanches{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+    }
+    
+    
+    .greenblock{
+        margin-top:-60px;
+        background-color:#2aa254;
+        height:40px;
+        text-align: center;
+        
+        
+    }
+
+
 }
