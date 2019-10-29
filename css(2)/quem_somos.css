@@ -1,10 +1,13 @@
 body{
     height:100%;
     width:100%;
-    margin:0 auto;    
-}
-
-.paginas ul{
+    margin:0 auto; 
+    overflow-x:hidden;   
+  }
+  
+  .paginas ul{
+  
+  
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,13 +15,13 @@ body{
     background-color:#f0f0f0;
     height:15%;
     border-bottom: 1.6px solid #fee000;
-}
-
-.paginas li{
+  }
+  
+  .paginas li{
     float:left;
-}
-
-.paginas li a{
+  }
+  
+  .paginas li a{
     display: block;
     color:#2aa254;
     text-align: center;
@@ -27,8 +30,9 @@ body{
     font-size: 20px;
     font-family:'Roboto';
     font-weight: bold;
-}
-.dropbtn {
+    
+  }
+  .dropbtn {
     background-color:transparent;
     color:#2aa254;
     font-family:'Roboto';
@@ -37,7 +41,7 @@ body{
     font-size: 20px;
     border: none;
     cursor: pointer;
-}  
+  }  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -68,10 +72,21 @@ body{
   .dropdown:hover .dropbtn {
     background-color: #9b9b9b;
   }
+  
   .paginas ul li a:hover{
     color: #fee000;
     background: #949493;
-}
+  }
+  .imgg1 li{
+    margin-left:15%;
+  margin-top:0.5%;
+    
+  }
+  
+  .inicio li{
+    margin-top:2.2%;
+    margin-left:10%
+  }
 
 .title{
     margin-left:100px;
@@ -235,10 +250,356 @@ body{
     margin-bottom:50px;
     margin-left:100px;
 }
+.imgepsrc{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgalant{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+.imgatmos{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgutf{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
+
+.imgmanches{
+    width:15%;
+    margin-bottom:50px;
+    padding:20px
+}
 
 .greenblock{
+    margin-top:5%;
     background-color:#2aa254;
     height:150px;
     text-align: center;
     
+    
+}
+
+@media screen and (max-width:768px){
+    body{
+
+        height:100%;
+        width: 100%; 
+        margin: auto;    
+        overflow-x: hidden;
+    }
+    .paginas ul{
+    
+      width:100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        background-color:#f0f0f0;
+        height:15%;
+        border-bottom: 1.6px solid #fee000;
+        
+    }
+    .paginas li{
+        float:left;
+        width:100%;
+        text-align:center;
+    
+     
+    }
+    
+    
+    .paginas li a{
+        display: block;
+        color:#2aa254;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 80%;
+        font-family:'Roboto';
+        font-weight: bold;
+        background-color:#f0f0f0;
+        border-spacing:0px;
+      
+    }
+    .inicio{
+      margin-left:-23%;
+    }  
+    .imgg1{
+      margin-left:-45%;
+      margin-top:-2%;
+      background-color:#f0f0f0;
+      
+    }
+    
+    
+    .dropbtn {
+        background-color:transparent;
+        color:#2aa254;
+        font-family:'Roboto';
+        padding: 14px 16px;
+        font-weight: bold;
+        font-size: 80%;
+        border: none;
+        cursor: pointer;
+        background-color:#f0f0f0;
+        width:100%;
+       
+    }  
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        width:100%;
+       
+      }
+      
+      .dropdown-content {
+        display: none; 
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+       
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+       
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #9b9b9b;
+        
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+       
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: transparent;
+       
+      }
+    
+      .paginas ul li a:hover{
+        color: #fee000;
+        background:transparent;
+     
+      }
+      .title{
+          margin-top:210px;
+        margin-left:10px;
+        text-align: left;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color:#595a55;
+        font-size: 10px;
+    }
+    
+    .rectangle {
+    
+        height: 8px;
+        width: 50px;
+        background-color: #555;
+        display: none;
+        margin-top:-20px;
+        margin-left:190px;
+    }
+    
+    .text{
+        padding:10px;
+        margin-left:10px;
+        margin-right:10px;
+        text-align: justify;
+        color:#595a55;
+        font-family: 'roboto';
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #f0f0f0;
+    
+    }
+    
+    .team{
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color:#595a55;
+        font-size: 10px;
+    }
+    .rectangle1 {
+        height: 8px;
+        width: 50px;
+        background-color: #555;
+        display: none;
+        margin-top:-20px;
+    
+    }
+    
+    .circular-portrait {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        border-color: black;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    
+    .circular-portrait-mini{
+        margin-top:30px;
+        margin-bottom:30px;
+        margin-left:60px;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 50%;
+        border-color: black;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    
+    }
+    
+    
+    
+    .small-uni-txt{
+        font-weight: normal;
+        font-size:10px;
+        font-family: 'Roboto';
+    }
+    
+    .circularportrait-img {
+        width: 100%;
+        height: 100%;
+    
+        
+    }
+    
+    
+    #collaborators-table-small{
+        border-spacing: 10px;
+        border-collapse: separate;
+        width:70%;
+        display:none;
+    }
+    
+    .col-cell-bio{
+        margin-top:3000px;
+        padding:none;
+        background-color:#2222;
+        color:black;
+        font-size:20px;
+        font-family:'Roboto';
+        font-weight: bold;
+        text-align: center;
+       
+        width:25%;
+        height:5px;
+    
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+    
+    .no-select {
+         -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+         user-select: none;
+    }
+    
+    
+    .centre-text-container {
+        text-align: center;
+        text-align: justify;
+    }
+    
+    #bio-table{
+        width:90%;
+    }
+    
+    #collaborators-table{
+        border-spacing: none;
+        border-collapse:collapse;
+        width:100%;
+        margin-left:0%;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+        
+    }
+    
+    .bio-pic{
+        width: 10%;
+    }
+    
+    .circularportrait-img {
+        margin-left:0px;
+        text-align:center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .primary-bio-text{
+        width: 20%;
+        padding:10px;
+    }
+    
+    .names{
+        margin-top:-12px;
+        margin-bottom:5px;
+        margin-left:10px;
+        font-size:10px;
+    }
+    .imgepsrc{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+      }
+      .imgalant{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+      }
+      .imgatmos{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+      }
+      
+      .imgutf{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+      }
+      
+      .imgmanches{
+        width:15%;
+        margin-top:10px;
+        padding:0px
+      }
+      
+      
+      .greenblock{
+        margin-top:10px;
+        background-color:#2aa254;
+        height:40px;
+      
+        
+        
+      }
 }
